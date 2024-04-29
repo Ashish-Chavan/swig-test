@@ -144,8 +144,6 @@ MSVCDLL bool parse(std::string& name, int& rank, double& diso, double& delz,
                                         std::string& state, int warn=0) const;
 
 
-MSVCDLL std::vector<std::string> printStrings() const;
-
 
 //MSVCDLL std::ostream& print(std::ostream& ostr) const;
 //MSVCDLL friend std::ostream& operator<< (std::ostream& ostr, const SinglePar& par);
