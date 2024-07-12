@@ -10,7 +10,7 @@
 	{ 
 		Point * p = (Point *) malloc(sizeof(Point)); 
 		p->x = x; 
-		p->y = y; 
+		
 		return p; 
 	}; 
 }; 
